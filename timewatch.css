@@ -72,7 +72,7 @@ body{
     border-top: 13px solid rgb(113, 255, 108);
 }
 #time-left2{
-    font-size: clamp(12px, 2vw, 22px);
+    font-size: clamp(20px, 2vw, 22px);
     background-color: rgb(214, 245, 121);
 }
 #device-time{
