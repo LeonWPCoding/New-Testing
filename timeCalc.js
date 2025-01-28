@@ -5,21 +5,8 @@ function updateDeviceTime() {
     document.getElementById('device-time').textContent = `Current Time : ${timeString}`;
 }
 
-/*function calculateTimeLeft() {
-    const targetTime = new Date();
-    targetTime.setHours(23, 0, 0);
-    const timeDifference = targetTime - new Date();
-    const differenceInMilliseconds = Math.abs(timeDifference);
-    const differenceInMinutes = Math.floor(differenceInMilliseconds / 60000);
-    const differenceInSeconds = Math.floor((differenceInMilliseconds % 60000) / 1000);
-    const differenceInHours = Math.floor(differenceInMinutes / 60);
-    const differenceInRemainingMinutes = differenceInMinutes % 60;
-    document.getElementById('time-left').textContent = `${differenceInHours} : 
-    ${differenceInRemainingMinutes}: ${differenceInSeconds} `;
-}*/
-
 function setFillLine(hour, minute) {
-    var totalMinutes = (hour * 43) + minute;
+    var totalMinutes = ((hour-1) * 60) + minute;
     var percentage = (totalMinutes / 1440) * 100;
     document.getElementById('fill-line').style.width = percentage + '%'; }
 
