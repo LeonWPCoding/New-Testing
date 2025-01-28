@@ -96,6 +96,7 @@ body{
 
 
 .dayGroup{
+    width: 93.8%;
     gap: 10px;
     display: flex;
     justify-content: center;
