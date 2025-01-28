@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Left Until 9 PM</title>
+    <link rel="stylesheet" href="timewatch.css">
+    <script src="timeCalc.js"></script>
+</head>
+<body>
+    <center>
+    <p id="device-time" class="d-time"></p>
+    <p id="time-left"></p>
+    <br>
+    
+    <div class="dayGroup">
+        <input type="radio" class="day" id="radio1" name="date" value="A"><label for="radio1" class="radioLabel">Group A</label>
+        <input type="radio" class="day" id="radio2" name="date" value="B"><label for="radio2" class="radioLabel">Group B</label>
+        <input type="radio" class="day" id="radio3" name="date" value="C"><label for="radio3" class="radioLabel">Group C</label>
+    </div>  
+    <br><br>
+    <div class="dayGroup">
+        <input type="radio" class="idk" id="radio4" name="type" value="YE"><label for="radio4" class="radioLabel">Yesterday</label>
+        <input type="radio" class="idk" id="radio5" name="type" value="TD"><label for="radio5" class="radioLabel" checked>Today</label>
+        <input type="radio" class="idk" id="radio6" name="type" value="TM"><label for="radio6" class="radioLabel">Tomorrow</label>
+    </div>  
+
+
+    <div class="timeeLoad">
+        
+        <div class="L-line">
+            <div id="run-line">
+                <div id="fill-line"></div>
+                <div id="triangle"></div>
+            </div>
+        </div>
+        <div class="T-line">
+            <div id="timeL1"></div>
+            <div id="timeL2"></div>
+            <div id="timeL3"></div>
+            <div id="timeL4"></div>
+            <div id="timeL5"></div>
+            <div id="timeL6"></div>
+        </div>
+        <div class="timetable">
+            <div class="timeP1"><p>1 AM</p></div>
+            <div class="timeP2"><p>5 AM</p></div>
+            <div class="timeP3"><p>9 AM</p></div>
+            <div class="timeP4"><p>1 PM</p></div>
+            <div class="timeP5"><p>5 PM</p></div>
+            <div class="timeP6"><p>9 PM</p></div>
+            <div class="timeP7"><p>1 AM</p></div>
+        </div>
+        <div><p id="time-left2">_</p></div>
+        
+    </div>
+</center>
+</body>
+</html>
