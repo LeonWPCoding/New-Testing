@@ -96,13 +96,12 @@ body{
 
 
 .dayGroup{
-    width: 93.8%;
+    width: 95%;
     gap: 10px;
     display: flex;
-    justify-content: center;
-    border: 2px; 
-    padding: 10px;
+    justify-content: center; 
     background-color: aqua;
+    padding: 10px 0px;
 } 
 .dayGroup label{
     align-items: center;
