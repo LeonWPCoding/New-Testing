@@ -123,3 +123,6 @@ body{
 .timetable p{
     font-size: clamp(12px, 2vw, 22px);
 }
+.T-line{
+    width: 86%;
+}
